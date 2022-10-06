@@ -6,9 +6,22 @@ pipeline {
          steps{
          sh 'echo hello'
          } 
-      
+      }
+      stage('package'){
+         steps{
+         sh 'echo hello'
+         } 
+      }
+      stage('deply'){
+         steps{
+         sh 'echo hello'
+         } 
+      }
+      stage('artifact'){
+         steps{
+         sh 'echo hello'
+         } 
       }
    }
-
 
 }
